@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Silverstripe-CMS-Automation" verbose="1" 
+	configfailurepolicy="continue">
+		<test name = "To validate Log-In Feature"
+			annotations="JDK" preserve-order ="true" enabled ="true">
+				<classes>
+					<class name = "test.CMSLogInTest"/>
+				</classes>
+		</test>
+		<test name = "To validate Page Creation Feature"
+			annotations="JDK" preserve-order ="true" enabled ="true">
+				<classes>
+					<class name = "test.CMSCreatePageTest"/>
+				</classes>
+		</test>
+</suite>
